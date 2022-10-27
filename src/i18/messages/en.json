@@ -1,0 +1,12 @@
+{
+  "LOGIN.BUTTON": "Login",
+  "LOGIN.INPUT.EMAIL.PLACEHOLDER": "E-mail",
+  "LOGIN.INPUT.PASSWORD.PLACEHOLDER": "Password",
+  "LOGIN.FORGOT_PASSWORD": "Forgot password?",
+  "DASHBOARD.CARDS.GUIDELINES.TITLE": "Guidelines",
+  "DASHBOARD.CARDS.MODULES.TITLE": "Modules",
+  "DASHBOARD.CARDS.FILES.TITLE": "Files",
+  "DASHBOARD.CARDS.GUIDELINES.CONTENT": "An overview of all guidelines that you can view, change or add.",
+  "DASHBOARD.CARDS.MODULES.CONTENT": "An overview of all modules that you can view, change or add.",
+  "DASHBOARD.CARDS.FILES.CONTENT": "An overview of all figures, images and documents that you can view, change or add."
+}

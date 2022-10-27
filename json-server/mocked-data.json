@@ -1,0 +1,165 @@
+{
+  "authentication": [
+    {
+      "id": 1,
+      "email": "admin@fab.nl",
+      "password": "Admin123",
+      "token": "12345"
+    }
+  ],
+  "dashboard": {
+    "recentActivities": [
+      {
+        "date": "12 juli 2022 - 12:32 uur",
+        "action": "Richtlijn gewijzigd",
+        "location": "Algemene Chirurgie - Anterior Cutaneous Nerve Entrapment Syndrome",
+        "who": "Sonja Wouters"
+      },
+      {
+        "date": "10 juli 2022 - 09:23 uur",
+        "action": "Status gewijzigd",
+        "location": "Aneurysma van de abdominale aorta (AAA) 2009",
+        "who": "Jane Doe"
+      },
+      {
+        "date": "12 juli 2022 - 09:23 uur",
+        "action": "Module gewijzigd",
+        "location": "Lorem ipsum dolor sit amet",
+        "who": "Ted Smit"
+      },
+      {
+        "date": "12 juli 2022 - 09:23 uur",
+        "action": "Status gewijzigd",
+        "location": "Algemene Chirurgie - Anterior Cutaneous Nerve Entrapment Syndrome",
+        "who": "Mark Timmers"
+      },
+      {
+        "date": "8 juli 2022 - 14:04 uur",
+        "action": "Status gewijzigd",
+        "location": "Lorem ipsum dolor sit amet",
+        "who": "John Do"
+      }
+    ],
+    "cards": [
+      {
+        "title": "Richtlijnen",
+        "description": "Een overzicht van alle richtlijnen de je kunt kunt bekijken, wijzigen of toevoegen."
+      },
+      {
+        "title": "Modules",
+        "description": "Een overzicht van alle modules de je kunt kunt bekijken, wijzigen of toevoegen."
+      },
+      {
+        "title": "Bestanden",
+        "description": "Een overzicht van alle figuren, afbeeldingen en documenten de je kunt kunt bekijken, wijzigen of toevoegen."
+      }
+    ]
+  },
+  "guidelines": [
+    {
+      "title": "Alcoholmisbruik in het kader van rigeschikteidskeuringen",
+      "version": 1.0,
+      "status": "offline",
+      "lastModified": "12 juli 2022",
+      "children": [
+        {
+          "title": "Indicatiestelling revalidatietraject",
+          "data": {
+            "title": "Indicatiestelling revalidatietraject",
+            "url": "indicatiestelling-revalidatietraject",
+            "version": 1.0,
+            "guideline": "Alcoholmisbruik in het kader van rigeschikteidskeuringen",
+            "language": "Nederlands",
+            "groupId": "023489",
+            "publicationDate": "21 juli 2022",
+            "status": "offline",
+            "editedBy": "Sonja Wouters",
+            "development": "12 augustus 2021",
+            "revision": "12 augustus 2021",
+            "authorization": "12 augustus 2021"
+          },
+          "meta": {
+            "careProcess": [
+              {
+                "title": "Behandeling"
+              },
+              {
+                "title": "Diagnostiek"
+              },
+              {
+                "title": "Organisatie"
+              }
+            ],
+            "symptomes": [
+              {
+                "title": ""
+              }
+            ],
+            "diseases": [
+              {
+                "title": "Stofwisselingsstornis"
+              }
+            ],
+            "spetialization": [
+              {
+                "title": "Cardiologie"
+              },
+              {
+                "title": "Interne geneeskunde"
+              }
+            ],
+            "keywords": [
+              {
+                "title": "Dyslipidemie"
+              }
+            ],
+            "cluster": [
+              {
+                "title": "CVRM"
+              }
+            ]
+          },
+          "content": {
+            "title": "Dit is een titel, ingesteld via de format dropdown",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam elit, viverra et odio id, sodales blandit purus. Pellentesque vitae nulla consectetur, vehicula odio in, tincidunt orci. Donec sollicitudin justo augue, ut rutrum orci viverra eget. Phasellus nulla eros, venenatis sit amet dolor et, varius rutrum ligula. Nulla facilisi. Suspendisse efficitur leo ac eros luctus sollicitudin. Quisque et nunc non dolor imperdiet sollicitudin porta malesuada purus. Fusce dignissim porttitor nisi, rutrum elementum turpis convallis quis. Integer nisi leo, tincidunt nec congue sed, varius nec dui. Nulla sed nibh sit amet neque luctus ultricies vel non nulla. Donec iaculis justo sapien."
+          }
+        }
+      ]
+    }
+  ],
+  "modules": {
+    "recentActivities": [
+      {
+        "date": "12 juli 2022 - 12:32 uur",
+        "action": "Richtlijn gewijzigd",
+        "location": "Algemene Chirurgie - Anterior Cutaneous Nerve Entrapment Syndrome",
+        "who": "Sonja Wouters"
+      },
+      {
+        "date": "10 juli 2022 - 09:23 uur",
+        "action": "Status gewijzigd",
+        "location": "Aneurysma van de abdominale aorta (AAA) 2009",
+        "who": "Jane Doe"
+      },
+      {
+        "date": "12 juli 2022 - 09:23 uur",
+        "action": "Module gewijzigd",
+        "location": "Lorem ipsum dolor sit amet",
+        "who": "Ted Smit"
+      },
+      {
+        "date": "12 juli 2022 - 09:23 uur",
+        "action": "Status gewijzigd",
+        "location": "Algemene Chirurgie - Anterior Cutaneous Nerve Entrapment Syndrome",
+        "who": "Mark Timmers"
+      },
+      {
+        "date": "8 juli 2022 - 14:04 uur",
+        "action": "Status gewijzigd",
+        "location": "Lorem ipsum dolor sit amet",
+        "who": "John Do"
+      }
+    ]
+  },
+  "files": {}
+}

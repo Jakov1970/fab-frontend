@@ -1,0 +1,12 @@
+{
+  "LOGIN.BUTTON": "Inlogeen",
+  "LOGIN.INPUT.EMAIL.PLACEHOLDER": "E-mailadres",
+  "LOGIN.INPUT.PASSWORD.PLACEHOLDER": "Wachtwoord",
+  "LOGIN.FORGOT_PASSWORD": "Wachtwoord vergeten?",
+  "DASHBOARD.CARDS.GUIDELINES.TITLE": "Richtlijnen",
+  "DASHBOARD.CARDS.MODULES.TITLE": "Modules",
+  "DASHBOARD.CARDS.FILES.TITLE": "Bestanden",
+  "DASHBOARD.CARDS.GUIDELINES.CONTENT": "Een overzicht van alle richtlijnen de je kunt kunt bekijken, wijzigen of toevoegen.",
+  "DASHBOARD.CARDS.MODULES.CONTENT": "Een overzicht van alle modules de je kunt kunt bekijken, wijzigen of toevoegen.",
+  "DASHBOARD.CARDS.FILES.CONTENT": "Een overzicht van alle figuren, afbeeldingen en documenten de je kunt kunt bekijken, wijzigen of toevoegen."
+}
