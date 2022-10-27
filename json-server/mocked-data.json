@@ -1,10 +1,9 @@
 {
-  "authentication": [
+  "users": [
     {
-      "id": 1,
-      "email": "admin@fab.nl",
-      "password": "Admin123",
-      "token": "12345"
+      "email": "admin@mailinator.com",
+      "password": "$2a$10$oP.PtMqeu90/tcyNZuhtSOUPmN9xr7.igbuc2eaktRow9wlf3EwRa",
+      "id": 1
     }
   ],
   "dashboard": {
@@ -58,7 +57,7 @@
   "guidelines": [
     {
       "title": "Alcoholmisbruik in het kader van rigeschikteidskeuringen",
-      "version": 1.0,
+      "version": 1,
       "status": "offline",
       "lastModified": "12 juli 2022",
       "children": [
@@ -67,7 +66,7 @@
           "data": {
             "title": "Indicatiestelling revalidatietraject",
             "url": "indicatiestelling-revalidatietraject",
-            "version": 1.0,
+            "version": 1,
             "guideline": "Alcoholmisbruik in het kader van rigeschikteidskeuringen",
             "language": "Nederlands",
             "groupId": "023489",
