@@ -1,15 +1,26 @@
-import { Box, Container, FormLabel, HStack, VStack } from '@chakra-ui/react'
-import React from 'react'
+import { Box, Container, FormLabel, HStack, Table, TableCaption, Tbody, Td, Tfoot, Th, Thead, Tr, VStack } from '@chakra-ui/react'
+import React, { useEffect, useState } from 'react'
 import { styleProps } from '../Login/styleProps'
 import { columns, DashboardCardsData, data } from './DashboardCardsData'
 import arrowIcon from '../images/arrowIcon.png'
 import icon from '/images/icon.png'
 import leftArrowIcon from '../images/leftArrowIcon.png'
 import { DataTable } from './DashboardTable'
+import { getDashboardData } from '../axios/api'
 
 export const Dashboard = () => {
 
   const { screen, cardsLayout, cardDesign, cardImage, cardTitle } = styleProps
+
+  const [tableData, setTableData] = useState([])
+
+  useEffect(() => {
+    getDashboard()
+  }, []);
+
+  const getDashboard = async () => {
+    await getDashboardData().then(res => setTableData(res?.data?.recentActivities))
+  }
 
   return (
     // <Box {...screen}>
@@ -82,7 +93,36 @@ export const Dashboard = () => {
         </div>
       </div>
       <div>
-        <DataTable columns={columns} data={data} />
+        <DataTable columns={columns} data={tableData} />
+      </div>
+      <div>
+        {/* <Table variant="simple">
+          <TableCaption>Imperial to metric conversion factors</TableCaption>
+            <Thead>
+              <Tr>
+                <Th>To convert</Th>
+                <Th>into</Th>
+                <Th isNumeric>multiply by</Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              <Tr>
+                <Td>inches</Td>
+                <Td>millimetres (mm)</Td>
+                <Td isNumeric>25.4</Td>
+              </Tr>
+              <Tr>
+                <Td>feet</Td>
+                <Td>centimetres (cm)</Td>
+                <Td isNumeric>30.48</Td>
+              </Tr>
+              <Tr>
+                <Td>yards</Td>
+                <Td>metres (m)</Td>
+                <Td isNumeric>0.91444</Td>
+              </Tr>
+            </Tbody>
+          </Table> */}
       </div>
     </div>
   )

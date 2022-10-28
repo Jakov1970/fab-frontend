@@ -1,5 +1,5 @@
 import { axiosInstance } from './apiSetup';
 
-export const loginUser = () => axiosInstance?.get(`authentication`)
+export const loginUser = (form: any) => axiosInstance?.post(`users`, form)
 
-export const getDashboardData = () => axiosInstance?.get('dashboard/recentActivities') 
+export const getDashboardData = () => axiosInstance?.get('dashboard') 

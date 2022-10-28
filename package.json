@@ -28,7 +28,7 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "dotenv -e .env.local react-scripts start",
     "dev": "concurrently \"dotenv -e .env.local react-scripts start\" \"json-server --watch ./json-server/mocked-data.json --port 5001 -m ./node_modules/json-server-auth\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -51,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^7.5.0"
   }
 }

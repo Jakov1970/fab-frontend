@@ -4,6 +4,26 @@
       "email": "admin@mailinator.com",
       "password": "$2a$10$oP.PtMqeu90/tcyNZuhtSOUPmN9xr7.igbuc2eaktRow9wlf3EwRa",
       "id": 1
+    },
+    {
+      "email": "jakov@mailinator.com",
+      "password": "$2a$10$st00WXyu/UOeTDWHNkBqveeUUNTtgp99PgGChjqdbl7Ucfstkd7HK",
+      "id": 2
+    },
+    {
+      "email": "jakov.barton@elfak.rs",
+      "password": "$2a$10$c/GXZgQT.WJkLmGbnMH6Ouol/ab9QUwzhcyI24zZC7PJC83xYdjRW",
+      "id": 3
+    },
+    {
+      "email": "stefan@fab.com",
+      "password": "$2a$10$FXf/47TyvhyZTFRR7Mrar.nGz/rGkrjBeskjo994RAev/3MrwzOp2",
+      "id": 4
+    },
+    {
+      "email": "jakov.barton@elfak.com",
+      "password": "$2a$10$328T6NKV6AMrDjDRYsAaq.7R2GVoWzBAAsMsWKFsMxNa69TL2ratu",
+      "id": 5
     }
   ],
   "dashboard": {

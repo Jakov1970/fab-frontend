@@ -72,5 +72,11 @@ export function DataTable<Data extends object>({
         ))}
       </Tbody>
     </Table>
+    // <table style={{marginLeft: '40px', width: '100%'}}>
+    //   <thead style={{background: '#ECEFF8', borderRadius: '5px 5px 0px 0px', height: '60px'}}>
+
+    //   </thead>
+
+    // </table>
   );
 }

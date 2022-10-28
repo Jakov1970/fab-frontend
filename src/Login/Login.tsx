@@ -32,27 +32,20 @@ export const Login = () => {
   });
   
   const handleShowClick = () => setShowPassword(!showPassword);
-  
-  const checkIfUserExist = (user: any) => {
-    if (user?.email === form?.email && user?.password === form?.password) {
-      return { userExist: true, user: user }
-    } else {
-      return { userExist: false }
-    }
-  }
 
   const handlePostLogin = async () => {
-    await loginUser().then((res: any) => {
-      const user = res?.data?.map((user: any) => checkIfUserExist(user))
-      if (user?.[0]?.userExist) {
-        const token = user?.[0]?.user?.token
-        localStorage.setItem('token', token)
-        return navigate('/dashboard')
-      }
-    })
-    .catch(
-      (error: any) => console.log(error)
-    )
+    if(form.email.length !== 0 && form.password.length !== 0) {
+      await loginUser(form).then((res: any) => {
+        const accessToken = res?.data?.accessToken
+        if (accessToken) {
+          localStorage.setItem('accessToken', accessToken)
+          return navigate('/dashboard')
+        }
+      })
+      .catch(
+        (error: any) => console.log(error)
+      )
+    }
   };
 
   const handleChange = (event: any) => {
@@ -64,8 +57,6 @@ export const Login = () => {
       [event.target.id]: event.target.value,
     });
     if(form.email.length > 0 && form.password.length > 0) {
-      // setInputsAreEmpty(false)
-      console.log('aktivirao sam se');
       setInputsFilled(true);
     } else {
       setInputsFilled(false);

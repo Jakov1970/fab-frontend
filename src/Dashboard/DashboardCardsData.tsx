@@ -35,7 +35,7 @@ export type UnitConversion = {
   date: string;
   action: string;
   location: string;
-  name: string;
+  who: string;
 };
 
 export const data: UnitConversion[] = [
@@ -43,19 +43,19 @@ export const data: UnitConversion[] = [
     date: "inches",
     action: "millimetres (mm)",
     location: "fsfsfs",
-    name: "sssssssss"
+    who: "sssssssss"
   },
   {
     date: "feet",
     action: "centimetres (cm)",
     location: "fsfsfsfs",
-    name: "ssssssaaaa"
+    who: "ssssssaaaa"
   },
   {
     date: "yards",
     action: "metres (m)",
     location: "fsfsfsf",
-    name: "saaaaaaaaaa"
+    who: "saaaaaaaaaa"
   }
 ];
 
@@ -74,7 +74,7 @@ export const columns = [
     cell: (info) => info.getValue(),
     header: "Actie",
   }),
-  columnHelper.accessor("name", {
+  columnHelper.accessor("who", {
     cell: (info) => info.getValue(),
     header: "Wie",
   })
